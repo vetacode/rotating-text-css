@@ -69,3 +69,10 @@ p {
 .midnight {
   color: #2685e4;
 }
+
+div p {
+  color: red;
+}
+div + p {
+  color: blue;
+}
